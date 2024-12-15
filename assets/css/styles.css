@@ -286,6 +286,8 @@ body {
 
   .intro {
     gap: 5rem;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .intro__image img {
