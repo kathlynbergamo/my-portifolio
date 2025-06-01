@@ -13,6 +13,10 @@
 }
 
 body {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
   font-family: var(--font-family);
   font-size: var(--font-size-base);
   color: var(--color-secondary);
@@ -29,7 +33,7 @@ body {
   font-size: 1rem;
   font-weight: 500;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-top: 2rem;
 }
 
@@ -102,8 +106,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 14rem;
-  padding: 2rem;
+  gap: 12rem;
+  padding: 2rem 2rem 10rem 2rem;
   margin-top: 9%;
 }
 
