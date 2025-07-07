@@ -9,16 +9,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <nav class="header__nav">
       <p><a href="./index.html" class="header__link">Port<span>fólio</span></a></p>
-      <ul class="header__menu">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir Menu">
+        ☰
+      </button>
+      <ul class="header__menu" id="header-menu">
         <li><a href="./about.html" class="header__link">Sobre Mim</a></li>
-        <li><a href="./assets/img/Kathlyn-Da-Silva-Bergamo-CV.pdf" href="" class="header__link">Currículo</a></li>
+        <li><a href="./assets/img/Kathlyn-Da-Silva-Bergamo-CV.pdf" class="header__link">Currículo</a></li>
         <li><a href="mailto:kathlynbergamo2021@gmail.com" class="header__link">Entre em Contato</a></li>
       </ul>
     </nav>
@@ -28,7 +32,10 @@
     <section class="info-about">
       <div>
         <div class="info-about__profession">
-          <p>Meu nome é <span>Kathlyn</span>, e meu foco está em Desenvolvimento Web. Estou em constante aprendizado para me tornar uma profissional de excelência, mergulhando em novas linguagens de programação e explorando bibliotecas inovadoras. Cada projeto é uma oportunidade de aplicar e expandir meu conhecimento, contribuindo para soluções eficientes e impactantes na área.</p>
+          <p>Meu nome é <span>Kathlyn</span>, e meu foco está em Desenvolvimento Web. Estou em constante aprendizado
+            para me tornar uma profissional de excelência, mergulhando em novas linguagens de programação e explorando
+            bibliotecas inovadoras. Cada projeto é uma oportunidade de aplicar e expandir meu conhecimento, contribuindo
+            para soluções eficientes e impactantes na área.</p>
         </div>
         <div class="info-about__profession">
           <p>Atualmente estou cursando Análise e Desenvolvimento de
@@ -81,6 +88,7 @@
       </div>
     </section>
   </main>
-<script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
